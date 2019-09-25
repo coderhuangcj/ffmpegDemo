@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cutVideo"
+        android:text="录像并裁剪" />
+
+    <Button
+        android:id="@+id/btn_remove_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="removeAudio"
+        android:text="录像并移除音频流" />
+
+    <Button
+        android:id="@+id/btn_merge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="merge"
+        android:text="音视频合并" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="waterMark"
+        android:text="添加图片水印" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="textWaterMark"
+        android:text="生成文字图片水印" />
+
+</LinearLayout>
